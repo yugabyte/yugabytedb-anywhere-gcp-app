@@ -10,7 +10,7 @@ https://docs.yugabyte.com/latest/yugabyte-platform/overview/
 
 # Installation
 
-Get up and running with a few clicks! Install this Yugabyte Anywhere app to a Google Kubernetes Engine cluster using Google Cloud Marketplace
+Get up and running with a few clicks! Install this Yugabyte Anywhere app to a compute engine using Google Cloud Marketplace
 
 ## Quick install with Google Cloud Marketplace
 
@@ -23,7 +23,7 @@ Get up and running with a few clicks! Install this Yugabyte Anywhere app to a Go
     ![Search for Yugabyte Anywhere](assets/gcp-2.png)
 
 - Review VM details, pricing information and other details. Then click on launch
-- 
+
     ![Click on launch](assets/gcp-3.png)
 
 - Configure the VM and click on deploy
@@ -41,9 +41,6 @@ You'll need the following tools in your development environment:
 -   [gcloud](https://cloud.google.com/sdk/gcloud/)
 
 #### Create a VM
-
-
-**!!!!! NEED TO CHECK THIS ONE !!!!!!**
 
 ```shell
 gcloud compute instances create VM_NAME \
